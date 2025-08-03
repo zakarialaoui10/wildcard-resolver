@@ -5,7 +5,9 @@
   "keywords": [
     "vite",
     "plugin",
-    "astro-integration"
+    "astro-integration",
+    "withastro",
+    "wildcard"
   ],
   "exports": {
     ".": "./src/astro/index.js",
