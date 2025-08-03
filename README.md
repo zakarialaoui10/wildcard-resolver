@@ -12,7 +12,7 @@ import vertexShader from './shaders/basic.vert';
 import fragmentShader from './shaders/lighting.frag';
 gl.shaderSource(vertexShaderProgram, vertexShader);
 ```
-✅ No need for bundling tricks — shader files stay separate and readable.
+🚀 No need for bundling tricks — shader files stay separate and readable.
 
 2. Code Snippets or Examples
 Embed snippets in blogs, playgrounds, or editors:
@@ -25,14 +25,14 @@ import exampleCode from './snippets/hello-world.asm';
 import helpText from './docs/help.txt';
 console.log(helpText);
 ```
-✅ Great for embedding documentation, user guides, or licensing info directly in-app.
+🚀 Great for embedding documentation, user guides, or licensing info directly in-app.
 
 4. ...
 
 
 ## Key Features
 
-✅ Import Any File as Raw String
-🚀 Compatible with Astro / Vite 
-✅ Custom Extension Support
-🗂️ Supports Nested File Imports
+- ✅ Import Any File as Raw String
+- 🚀 Compatible with Astro / Vite 
+- ✅ Custom Extension Support
+- 🗂️ Supports Nested File Imports
