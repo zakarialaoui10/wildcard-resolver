@@ -1,0 +1,25 @@
+{
+  "name": "wildcard-resolver",
+  "version": "0.1.0",
+  "description": "import files with any extension as raw strings.",
+  "keywords": [
+    "vite",
+    "plugin",
+    "astro-integration"
+  ],
+  "homepage": "https://github.com/zakarialaoui10/wildcard-resolver#readme",
+  "bugs": {
+    "url": "https://github.com/zakarialaoui10/wildcard-resolver/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakarialaoui10/wildcard-resolver.git"
+  },
+  "license": "MIT",
+  "author": "zakaria elalaoui",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

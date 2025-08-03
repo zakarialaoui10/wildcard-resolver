@@ -1,0 +1,1 @@
+import WildcardResolverVitePlugin from "../vite/index.js";
