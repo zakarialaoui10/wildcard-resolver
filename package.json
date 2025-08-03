@@ -1,6 +1,6 @@
 {
   "name": "wildcard-resolver",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "import files with any extension as raw strings.",
   "keywords": [
     "vite",
