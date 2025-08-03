@@ -7,6 +7,10 @@
     "plugin",
     "astro-integration"
   ],
+  "exports": {
+    ".": "./src/astro/index.js",
+    "./vite": "./src/vite/index.js"
+  },
   "homepage": "https://github.com/zakarialaoui10/wildcard-resolver#readme",
   "bugs": {
     "url": "https://github.com/zakarialaoui10/wildcard-resolver/issues"
