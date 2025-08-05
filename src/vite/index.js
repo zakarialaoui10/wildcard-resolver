@@ -1,3 +1,4 @@
+import fs from "fs"
 export default function WildcardResolverVitePlugin({extensions = []}={}) {
   return {
     name: 'wildcard-resolver-vite-plugin',
@@ -10,7 +11,10 @@ export default function WildcardResolverVitePlugin({extensions = []}={}) {
     load(id) {
       const ext = extensions.find(e => id.endsWith(e));
       if (ext) {
-        return `export default ${JSON.stringify(require('fs').readFileSync(id, 'utf-8'))};`;
+         const content = fs.readFileSync(id, 'utf-8');
+         console.log(content)
+        return `export default function A(){}`
+        // return `export default ${JSON.stringify(require('fs').readFileSync(id, 'utf-8'))};`;
       }
       return null;
     },

@@ -1,6 +1,6 @@
 {
   "name": "wildcard-resolver",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "import files with any extension as raw strings.",
   "keywords": [
     "vite",
@@ -25,5 +25,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "ziko": "^0.34.1"
   }
 }
