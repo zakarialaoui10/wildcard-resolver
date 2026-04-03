@@ -35,4 +35,4 @@ console.log(helpText);
 - ✅ Import Any File as Raw String
 - 🚀 Compatible with Astro / Vite 
 - ✅ Custom Extension Support
-- 🗂️ Supports Nested File Imports
+- 🗂️ Supports Nested File Imports 
