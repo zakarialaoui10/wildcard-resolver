@@ -10,7 +10,7 @@ Import .vert and .frag files directly as raw text:
 ```js
 import vertexShader from './shaders/basic.vert';
 import fragmentShader from './shaders/lighting.frag';
-gl.shaderSource(vertexShaderProgram, vertexShader);
+gl.shaderSource(vertexShaderProgram, vertexShader); 
 ```
 🚀 No need for bundling tricks — shader files stay separate and readable.
 
