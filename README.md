@@ -1,7 +1,7 @@
 # wildcard-resolver
 import files with any extension as raw strings.
 
-
+ 
 ## 🔧 When Is This Plugin Useful?
 
 1. 🎮 WebGL / GLSL Shaders
